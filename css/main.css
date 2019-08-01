@@ -160,6 +160,9 @@ section{
     .about-me-text{
         font-size: 16px;
     }
+    .container-sections{
+        font-size: 0.5em;
+    }
 }
 @media (max-width: 400px){
     .nav-item{

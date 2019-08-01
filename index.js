@@ -59,7 +59,7 @@ function showMyProjectsPage() {
 
 function scroll() {
     main.style.height = '100vh';
-    containerSections.style.height = '80vh';
+    containerSections.style.height = '80%';
     setTimeout(() => {
         window.scrollTo(100, document.body.scrollHeight);
     }, 200);
