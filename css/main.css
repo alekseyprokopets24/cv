@@ -1,0 +1,168 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(../img/abstract-design-diagonal-2387532.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.header-info{
+
+}
+.first-letter-of-name{
+    max-width: 120px;
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #ffffff;
+    margin-bottom: 40px;
+}
+.my-name{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 52px;
+}
+.position{
+    font-size: 24px;
+    text-align: center;
+}
+.first-letter-of-name , .my-name , .position {
+    color: #ffffff;
+    
+}
+.header-info{
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+img{
+    max-width: 100%;
+    margin-right: 10px;
+}
+.contacts{
+    font-size: 14px;
+    padding: 10px 0;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.main{
+    
+    padding-top: 20px;
+
+}
+.nav-item-btn{
+    font-size: 20px;
+}
+button{
+    background: none;
+    border: none;
+}
+.about-me-text{
+    font-family: 'Titillium Web', sans-serif;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.info{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.info-text{
+    margin-bottom: 8px;
+}
+section{
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+.skill-item{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.skills-list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.page-disactive {
+    display: none !important;
+}
+
+.container-sections{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.project{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+.project-url{
+    margin-bottom: 14px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #FFB17F;
+}
+.button-hover{
+    border-bottom: 2px solid #000000;
+    -webkit-transition: 0.5s ease;
+}
+.contact_item{
+    display: flex;
+    align-items: center;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px){
+    .contacts{
+        flex-direction: column;
+    }
+    .contact_item{
+        margin-bottom: 10px;
+    }
+    .about-me-text{
+        font-size: 16px;
+    }
+}
+@media (max-width: 400px){
+    .nav-item{
+        font-size: 8px;
+    }
+}
